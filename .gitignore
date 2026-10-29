@@ -1,0 +1,28 @@
+# ==========================================
+# Protection du Code Source Propriétaire Privé
+# ==========================================
+# Le code source interne complet est conservé strictement en privé
+src/
+api/
+ui/
+scripts/
+tests/
+data/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env*
+venv/
+env/
+.venv/
+
+# Internal IDE, logs & temp files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+.system_generated/
